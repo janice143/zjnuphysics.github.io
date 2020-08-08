@@ -1,0 +1,426 @@
+/*基本样式*/
+
+.header img{
+    height:194px;
+    float: right;
+
+}
+.textbold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #343434;
+    height:44px;
+    line-height: 44px;
+    padding: 0 57px 0 0;
+}
+.nav .link1{
+    padding-left: 26px;
+}
+.nav .link2{
+    padding-right: 0px;
+}
+.bannerbig .banner img{
+    height:363px;
+    width:1248px;
+}
+
+.bannerbig{
+    height:363px;
+    background: orange;
+    position: relative;
+    overflow: hidden;
+
+}
+.banner-wrap{
+    width:900000px;
+    transition:all 0.5s;
+    position: absolute;
+    /*left:-1248px;*/
+}
+
+.banner-wrap .banner{
+  display: block;
+    height:363px;
+    width:1248px;
+    float: left;
+}
+.bannerbig .arrow img{
+    height:103px;
+    width: 82px    
+}
+.bannerbig .left-arrow{
+    position:absolute;
+    left: 0;
+    top:128px;   
+}
+.bannerbig .right-arrow{
+    position:absolute;
+    top:128px;
+    right: 0;   
+}
+.content1-caption{
+    position: relative;
+    /*background-color: red;*/
+ }
+
+.content1-caption img{
+    width:1248px;
+    height:10px;
+    position: absolute;
+    bottom: 19px;
+    left: 0;
+   
+}
+.content1-caption a{
+    display: inline-block;
+    height:63px;
+    line-height: 63px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#20646a;
+
+}
+.content1-caption a:hover{
+  text-decoration:underline;
+  color: #20646a;
+
+}
+.content1-caption .left-padding{
+    padding: 0 27px 0 14px;
+
+}
+
+.content1-tab .close a,
+.content1-tab .trend-list a{
+    /*display: inline-block:以设置width和height，并且元素保持行内排列的特性*/
+    display: inline-block; 
+    width:630px;
+    padding-left: 17px;
+    margin-left: 10px;
+    font-size: 16px;
+    height:26px;
+    line-height: 26px;
+    color:#323232;
+    background: url(../images/wp_article_li_1.png) left no-repeat;
+}
+.content1-tab .close a{
+    width:677px;
+}
+.content1-tab .close a:hover,
+.content1-tab .trend-list a:hover{
+    color:#FF6600;
+    text-decoration: underline;
+}
+
+.content2-graduate-list .date,
+.content2-academic-list .date,
+.content2-trade-list .date,
+.content1-tab .close .date,
+.content2-undergraduate-list .date,
+.content1-tab .trend-list .date{
+    float:right; 
+    font-size: 16px;
+    color:#323232;
+    height:26px;
+    line-height: 26px;
+}
+.content1-tab .close .borderline,
+.content1-tab .trend-list .borderline{
+    border: 1px dashed #c6c6c6;
+    width: 748px;
+}
+
+.content1-tab .trend-list{
+
+  /*display: block;*/
+  /*display: none;*/
+  float: left;
+ 
+}
+
+.content1-tab .close{
+    float: left;
+    display: none;
+
+}
+
+
+.content1-slider{
+    position: relative;
+}
+
+.content1-slider img{
+    width:487px;
+    height:306px;
+}
+.content1-slider{
+    float: right;
+    width:487px;
+    height:100%;
+    overflow: hidden;
+    
+}
+.slider-wrap{
+    width:900000px;
+    transition:all 0.5s;
+    position: absolute;
+    /*left:-487px;*/
+}
+
+.slider-wrap .sliderpic{
+   display: block;
+    width:487px;
+    height:306px;
+    float: left;
+}
+
+.content1-slider .number a{
+    display: inline-block;
+    width:17px;
+    height:17px;
+    line-height: 17px;
+    background-color: #989898;
+    font-size: 10px;
+    color: white;
+    margin-right: 6px;
+    float: left;
+    
+}
+.content1-slider .number{
+    position: absolute;
+    top:283px;
+    left:339px;
+    text-align: center;
+}
+
+.content1-slider .number .num-foucs{
+        background-color: #ff4647;
+        border:1px solid #fdfdfd;
+}
+
+
+
+.content2-caption{
+    position: relative;
+
+}
+
+.content2-caption img{
+    width:870px;
+    height:10px;
+    position: absolute;
+    bottom: 19px;
+    left: 0;
+   
+}
+.content2-caption .capstyle{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 9px;
+
+    color:#236266;
+    /*background-color: #236266;*/
+    /*border-radius: 4px 4px 0 0;*/
+
+}
+ .content2-caption .left-padding2{
+    margin: 0 0 0 24px;
+ }
+.content2-caption .capstyle:hover{
+    color:#fdfdfd;
+    background-color: #236266;
+    border-radius: 4px 4px 0 0;
+}
+ 
+.content2-graduate-list a,
+.content2-academic-list a,
+.content2-trade-list a,
+.content2-undergraduate-list a{
+    /*display: inline-block:以设置width和height，并且元素保持行内排列的特性*/
+    display: inline-block; 
+    width:630px;
+    padding-left: 17px;
+    margin-left: 10px;
+    font-size: 16px;
+    height:26px;
+    line-height: 26px;
+    color:#323232;
+    background: url(../images/wp_article_li_1.png) left no-repeat;
+}
+.content2-trade-list a,
+.content2-graduate-list a{
+    width:650px;
+}
+
+.content2-graduate-list a:hover,
+.content2-academic-list a:hover,
+.content2-trade-list a:hover,
+.content2-undergraduate-list a:hover{
+    color:#FF6600;
+    text-decoration: underline;
+}
+
+.more a{
+    background-image:none;
+    width:881px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.more img{
+    float: right;
+    padding: 4px 0;
+}
+.content2-graduate-list .borderline,
+.content2-academic-list .borderline,
+.content2-trade-list .borderline,
+.content2-undergraduate-list .borderline{
+    border: 1px dashed #c6c6c6;
+    width: 881px;
+}
+
+.content2-undergraduate-list{
+
+  /*display: block;*/
+  /*display: none;*/
+  float: left;
+ 
+}
+.content2-graduate-list,
+.content2-trade-list,
+.content2-academic-list{
+    float: left;
+    display: none;
+
+}
+
+
+
+
+.search{
+    width:356px;
+    height:59px;
+    position: relative;
+}
+.search .text-input{
+  position: absolute;
+  left:65px;
+  top:18px;
+  width: 174px;
+  height:24px;
+    border:none;
+
+    outline:none;
+
+}
+.search .text-input:focus{
+    border:2px solid black;
+    border-radius: 4px;
+
+}
+.search .sub-button img{
+    width: 40px;
+    height:40px;
+}
+.search .sub-button{
+    position: absolute;
+    right:58px;
+    top:10px;   
+}
+
+/*邮箱*/
+.content2-slider .email{
+    width:356px;
+    height:75px;
+    position: relative;
+}
+
+.content2-slider .email .yuanzhang{
+    position: absolute;
+    left:70px;
+    top:22px;
+    width:95px;
+    height:25px;
+    /*background-color: red;*/
+
+}
+.content2-slider .email .shuji{
+    position: absolute;
+    right:20px;
+    top:22px;
+    width:95px;
+    height:25px;
+    /*background-color: red;*/
+
+}
+.content2-slider .email a:active{
+    border: 2px solid black;
+}
+
+
+.content2-slider .caption img{
+    width:356px;
+    height:56px;
+}
+.content2-slider .search .backpic img{
+    width:356px;
+    height:59px;
+}
+
+.content2-slider .oldweb img{
+    width:356px;
+    height:75px;
+}
+
+.content2-slider .email img{
+    width:356px;
+    height:75px;
+}
+
+
+/*相关链接*/
+
+.content2-slider .relativelink{
+    width:356px;
+    height:56px;
+    position: relative;
+}
+
+.content2-slider .relativelink-links{
+  height: 66px;
+  width:148px;
+}
+.content2-slider .relativelink-links .line{
+    height: 22px;
+    width:148px;
+    position: absolute;
+    left:105px;
+    top:17px;
+}
+
+
+.content2-slider .relativelink img{
+    width:356px;
+    height:56px;
+}
+
+.content2-slider .physics img{
+    width:356px;
+    height:72px;
+}
+
+
+
+
+
+
+
+
